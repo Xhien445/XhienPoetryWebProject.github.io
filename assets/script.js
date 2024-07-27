@@ -38,6 +38,7 @@ let finale_click =  document.getElementById('finale_click')
 
 
 
+
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
@@ -174,7 +175,7 @@ finale_click.addEventListener('click', () => {
 
 function resetAnimations() {
     elara.style.transform = 'scale(1.5)'
-    tree3.style.top = '-300px' ;
+    tree3.style.top = '-250px' ;
     tree2.style.top = '100px' ;
     bush1.style.top = '-50px' ;
     bush2.style.top = '-50px' ;
@@ -255,3 +256,4 @@ tho5.addEventListener('click', () => {
 tho7.addEventListener('click', () => {
     click6.scrollIntoView({ behavior: 'smooth' });
 });
+
